@@ -222,15 +222,15 @@ opacity: 0;
 }
 
 label {
-    padding-left: 17%;
-    margin-bottom: 6px;
+    padding-left: 60px;
+    margin-top: 6px;
     justify-content: left;
     text-align: left;
     margin-top:15px;
 }
 @media (max-width: 600px) {
     label{
-        padding-left: 17%;
+        padding-left: 5%;
     }
 }
 
