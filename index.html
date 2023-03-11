@@ -15,30 +15,33 @@
     <div class="avatar" >
         <img class="avatar" src="img/Screenshot_20230304_215932_Gallery.jpg">
     </div>
-    <div class="blur">
+    <div class="wrapper">
 		<h1>Mi Portfolio</h1>
-		<p>Bienvenidos a mi portafolio, en este lugar guardaré mis proyectos personales y mis avances como web developer</p>
-		<button class="btn">Proyectos</button>
-        <button class="btn">Sobre mí</button>
-        <button class="btn">Contacto</button>
+		    <p>Bienvenidos a mi portafolio, en este lugar guardaré mis proyectos personales y mis avances como web developer</p>
+		        <button class="btn">Proyectos</button>
+                <button class="btn">Sobre mí</button>
+                <button class="btn">Contacto</button>
         <span class="icons">
             <span class="insta">
-            <a href="https://instagram.com/christian.gonzalez_14?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://instagram.com/christian.gonzalez_14?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
             </span>  
-          <a href="https://www.linkedin.com/in/christian-isaac-gonzalez-01188b265/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://www.facebook.com/christiannnnnn1999/"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/christian-isaac-gonzalez-01188b265/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/christiannnnnn1999/"><i class="fa-brands fa-square-facebook"></i></a>
         </span>
 	</div>
-    <form>
-        <input class="btn1" type="text" placeholder="Nombre o Empresa">
-        <input class="btn1" type="email" placeholder="Email">
-        <textarea value="Escriba su mensaje aquí"></textarea>
-        <input class="btn2" type="submit" value="Enviar">
+    <form class="formulary">
+            <label name="name"> Nombre completo o empresa </label>
+                <input name="name"  class="shortsImput" type="text" placeholder="Nombre o Empresa">
+            <label name="email"> Email </label>
+                <input name="email"  class="shortsImput" type="email" placeholder="Email">
+            <label name="message"> Escriba su mensaje</label>
+                <textarea name="message" value="Escriba su mensaje aquí"></textarea>
+            <input class="send" type="submit" value="Enviar">
     </form>
+            <a href="mailto:christiang14@hotmail.com.ar" id="sendEmail"></a>
 
-  
 
-
+    <script src="main.js"></script>
     <script src="https://kit.fontawesome.com/4db4dddf67.js" crossorigin="anonymous"></script>
 </body>
 </html>
