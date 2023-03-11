@@ -186,21 +186,18 @@ textarea {
     text-align: center;
     vertical-align: middle;
     font-size: 30px;
+    max-width: 350px;
     line-height: 1.5;
-    margin: 10px auto;
+    margin: 30px auto;
     border-radius: 10px;
-    min-width: 250px;
+    min-width: 350px;
     padding: 5px 7px;
     font-size: 16px;
     text-align: left;
     outline: none;
     resize: none;
 }
-@media (max-width: 600px){
-    textarea {
-        width: 300px;
-    }
-}
+
 
 
 textarea::-webkit-scrollbar {
@@ -213,6 +210,13 @@ textarea::-webkit-scrollbar-thumb{
     border-radius: 30px;
 }
 
+@media (max-width: 600px){
+    textarea {
+        width: 60%;
+    }
+}
+
+
 #sendEmail {
 opacity: 0;
 }
@@ -224,6 +228,12 @@ label {
     text-align: left;
     margin-top:15px;
 }
+@media (max-width: 600px) {
+    label{
+        padding-left: 17%;
+    }
+}
+
 
 .upScroll {
     border: none;
